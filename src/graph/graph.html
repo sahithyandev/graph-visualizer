@@ -1,0 +1,9 @@
+<template>
+    <require from="./graph.css"></require>
+    <div class="graph-container">
+        <div class="graph-item" repeat.for="graphItem of data">
+            <div class="graph-item-block" css="width: ${graphItem.width || 0.1}vw"></div>
+            <div class="graph-item-name">${graphItem.itemName}</div>
+        </div>
+    </div>
+</template>

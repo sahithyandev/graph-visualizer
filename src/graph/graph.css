@@ -1,0 +1,8 @@
+.graph-item {
+  display: flex;
+}
+
+.graph-item .graph-item-block {
+  height: 32px;
+  background-color: blue;
+}
